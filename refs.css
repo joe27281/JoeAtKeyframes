@@ -1,8 +1,68 @@
-    .box {
-        position: relative;
-        animation: geeks 5s infinite;
-        animation-play-state: running
-    }
+.box {
+    position: relative;
+    animation: geeks 5s infinite;
+    animation-play-state: running
+}
+
+.box1 {
+    position: relative;
+    animation: geeks1 5s infinite;
+    animation-play-state: running
+}
+
+.box2 {
+    position: relative;
+    animation: geeks2 5s infinite;
+    animation-play-state: running
+}
+
+.box3 {
+    position: relative;
+    animation: geeks3 5s infinite;
+    animation-play-state: running
+}
+
+.box4 {
+    position: relative;
+    animation: geeks4 5s infinite;
+    animation-play-state: running
+}
+
+.box:hover {
+    animation-play-state: running;
+}
+
+.box2:hover {
+    animation-play-state: running;
+}
+
+.box3:hover {
+    animation-play-state: running;
+}
+
+.box4:hover {
+    animation-play-state: running;
+}
+
+.box5:hover {
+    animation-play-state: running;
+}
+
+.box.horizTranslate {
+    animation-play-state: paused;
+
+}.box2.horizTranslate {
+    animation-play-state: paused;
+
+}.box3.horizTranslate {
+    animation-play-state: paused;
+
+}.box4.horizTranslate {
+    animation-play-state: paused;
+
+}.box5.horizTranslate {
+    animation-play-state: paused;
+}
     
     @keyframes geeks {
         0% {
@@ -39,11 +99,6 @@
         }
     }
 
-    .box1 {
-        position: relative;
-        animation: geeks1 5s infinite;
-        animation-play-state: running
-    }
     
     @keyframes geeks1 {
         0% {
@@ -82,16 +137,6 @@
             
         }
     }
-
-    .box.horizTranslate {
-        animation-play-state: running;
-    }
-    
-    .box2 {
-        position: relative;
-        animation: geeks2 5s infinite;
-        animation-play-state: running
-    }
     
     @keyframes geeks2 {
         0% {
@@ -129,13 +174,7 @@
             
         }
     }
-    
-    .box3 {
-        position: relative;
-        animation: geeks3 5s infinite;
-        animation-play-state: running
-    }
-    
+        
     @keyframes geeks3 {
         0% {
             left: 300px;
@@ -173,11 +212,6 @@
         }
     }
 
-    .box4 {
-        position: relative;
-        animation: geeks4 5s infinite;
-        animation-play-state: running
-    }
     
     @keyframes geeks4 {
         0% {
@@ -216,6 +250,3 @@
 
     /* makes it so it starts and stops when you hover over the div */
 
-    .box:hover {
-        animation-play-state: running;
-    }
